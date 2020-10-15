@@ -9,7 +9,7 @@ void my_free(void *p) {
     free(p); // TODO: replace
 }
 
-int main() {
+void test() {
     int n = 3;
     int *p = my_malloc(n * sizeof(int));
     for (int i = 0; i < n; i++) {
@@ -18,4 +18,10 @@ int main() {
     }
     p -= n;
     my_free(p);
+}
+
+int main() {
+    test();
+    test();
+    test();
 }
