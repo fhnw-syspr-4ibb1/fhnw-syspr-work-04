@@ -8,9 +8,8 @@ Für Slides und Code Beispiele, siehe [Lektion 4](../../../fhnw-syspr/blob/maste
 ### a) Eigenes *malloc()*, 30'
 * Implementieren sie im Programm my_malloc.c die Funktionen *my_malloc()* und *my_free()* "von Hand".
 * Nutzen Sie dazu die System Calls *sbrk()* oder *brk()*.
-* Starten Sie mit einer einfachen<sup>*</sup> Implementierung.
-
-<sup>*</sup>Läuft test1() fehlerfrei? Was braucht es für test2()?
+* Starten Sie mit einer einfachen Implementierung.
+* Läuft *test1()* durch? Was braucht es für *test2()*?
 
 ### b) Signal Handler, 15'
 * Schreiben Sie ein Programm *my_sigint.c*, welches das Signal *SIGINT* mit einem Handler behandelt.
