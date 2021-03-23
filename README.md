@@ -5,7 +5,7 @@ Für Slides und Code Beispiele, siehe [Lektion 4](../../../fhnw-syspr/blob/maste
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
 > *[Erstellen Sie eine persönliche Kopie, mit diesem GitHub Classroom Link](https://classroom.github.com/a/nGMlkTJi).*
 
-### a) Eigenes *malloc()*, 30'
+### a) Eigenes *malloc()*, 20'
 * Implementieren sie im Programm my_malloc.c die Funktionen *my_malloc()* und *my_free()* "von Hand".
 * Nutzen Sie dazu die System Calls *sbrk()* oder *brk()*.
 * Starten Sie mit einer einfachen Implementierung.
