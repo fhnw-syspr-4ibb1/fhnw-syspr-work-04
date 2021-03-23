@@ -6,13 +6,13 @@ Für Slides und Code Beispiele, siehe [Lektion 4](../../../fhnw-syspr/blob/maste
 > *[Erstellen Sie eine persönliche Kopie, mit diesem GitHub Classroom Link](https://classroom.github.com/a/nGMlkTJi).*
 
 ### a) Eigenes *malloc()*, 30'
-* Implementieren Sie ein Programm my_malloc.c das Funktionen *my_malloc()* und *my_free()* anbietet.
+* Implementieren sie im Programm my_malloc.c die Funktionen *my_malloc()* und *my_free()* "von Hand".
 * Nutzen Sie dazu die System Calls *sbrk()* oder *brk()*.
-* Eine Skizze des *malloc()* Algorithmus' gibt es unter https://stackoverflow.com/a/31026883/3588
-* Vereinfachung: Gerüst von [my_malloc.c](my_malloc.c) im Repo.
+* Starten Sie mit einer einfachen<sup>*</sup> Implementierung.
+
+<sup>*</sup>Läuft test1() fehlerfrei? Was braucht es für test2()?
 
 ### b) Signal Handler, 15'
-* Ihr nächstes Programm *my_sigint.c*, soll das Signal *SIGINT* mit einer Funktion *handle()* behandeln.
-* Schicken Sie ihrem Programm SIGINT mit CTRL-C.
-* Welche Rolle spielen User, Shell, Kernel, Prozess?
-* Zeichnen Sie ein Sequenzdiagramm des Aufrufs, z.B. mit https://www.websequencediagrams.com/
+* Schreiben Sie ein Programm *my_sigint.c*, welches das Signal *SIGINT* mit einem Handler behandelt.
+* Die Handler Funktion soll dabei handle() heissen.
+* Senden Sie dem Programm *SIGINT* mittels *CTRL-C*.
